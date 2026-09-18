@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2026 The Electric Power Steering Contributors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+## Third-party components (not covered by the MIT licence above)
+
+This repository aggregates third-party deliveries that remain under their own
+vendor licence terms:
+
+- Vector MICROSAR basic software, RTE generator artefacts, DaVinci/SIP data
+  (Vector Informatik GmbH — proprietary).
+- Renesas P1x-C/X1x MCAL drivers and support files
+  (Renesas Electronics Corporation — proprietary).
+- Green Hills MULTI compiler/IDE delivery under `TL120A_Cplr/` and `TL121A_Ide/`
+  (Green Hills Software — proprietary).
+- Bundled Python runtime and other host tools under `TL*/` (their own licences).
+
+The MIT licence applies to the project-owned content (in-house software
+components, documentation site sources under `docs/`, scripts and glue). It
+does not re-licence third-party code or binaries.
